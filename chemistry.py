@@ -171,8 +171,19 @@ class MassIP:
 
 def run_interaction_program():
 
+    
     program = MassIP()
     program.welcome_message()
     program.run()
+    
+    while True:
+        again = input("Do you want to perform another calculation? (yes/no): ").strip().lower()
+        if again == 'yes':
+            program.run()
+        elif again == 'no':
+            print("Thank you for using the Chemistry Interaction Program. Goodbye!")
+            break
+        else:
+            print("Invalid input. Please enter 'yes' or 'no'.")
 
 run_interaction_program()
