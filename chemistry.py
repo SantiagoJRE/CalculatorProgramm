@@ -175,16 +175,6 @@ def run_interaction_program():
     program = MassIP()
     program.welcome_message()
     program.run()
-    
-    while True:
-        print("Do you want to perform another calculation?")
-        again = input("(yes/no):").lower()
-        if again == 'yes':
-            program.run()
-        elif again == 'no':
-            print("Thank you for using the Chemistry Interaction Program. Goodbye!")
-            break
-        else:
-            print("Invalid input. Please enter 'yes' or 'no'.")
-
+    print("Thank you for using the Chemistry Interaction Program. Goodbye!")
+           
 run_interaction_program()
