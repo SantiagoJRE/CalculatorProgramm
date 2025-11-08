@@ -177,7 +177,8 @@ def run_interaction_program():
     program.run()
     
     while True:
-        again = input("Do you want to perform another calculation? (yes/no): ").strip().lower()
+        print("Do you want to perform another calculation?")
+        again = input("(yes/no):").lower()
         if again == 'yes':
             program.run()
         elif again == 'no':
