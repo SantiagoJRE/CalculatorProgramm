@@ -134,7 +134,7 @@ class MassIP:
                 if mm_choice == 0:
                     print("")
                     print("Variable explanations:")
-                    print("Mole: One mole of a substance is equal to 6.022    10     units of that substance (such as atoms, molecules, or ions).")
+                    print("Mole: One mole of a substance is equal to 6.022 * 10^23 units of that substance (such as atoms, molecules, or ions).")
                     print("Molar Mass: Molar mass can be defined as 'mass per mole. ' In other words, molar mass is the sum of the mass of all the atoms found in one mole's worth of a substance. g/mol")
                     print("Mass: Mass is a measure of the amount of matter in a substance or an object. The basic SI unit for mass is the kilogram (kg), but smaller masses may be measured in grams (g).")
                     print("Number of Moles: The number of moles of a substance equals the ratio of its given mass in a chemical reaction to the mass of one mole of that substance.")
